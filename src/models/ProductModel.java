@@ -6,6 +6,7 @@ public class ProductModel {
     private String ProductName;
     private float Value;
     
+	// CONSTRUTOR
     public ProductModel() {
     }
     
@@ -16,6 +17,7 @@ public class ProductModel {
     	this.Value = Value;    	
     }
 	
+	// GETTERS E SETTERS
 	public int getProductId() {
 		return ProductId;
 	}
@@ -48,6 +50,4 @@ public class ProductModel {
 		Value = value;
 	}
     
-    
-	
 }
